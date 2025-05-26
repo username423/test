@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mike's Repair Service</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      text-align: center;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #222;
+      color: #fff;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mike's Repair Service</h1>
+    <p>We fix your problems so you don’t have to! (Guaranteed better sleeping patterns)</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Located in Downtown San Jose, Mike's Repair Service delivers expert automotive repair with honesty and precision. We treat every vehicle as if it were our own, focusing on quality, reliability, and customer satisfaction. Whether you need a quick oil change or a complex engine diagnostic, we’re here to help—so you can rest easy at night.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div>🔧 Engine Diagnostics</div>
+      <div>🛑 Brake Repair</div>
+      <div>🔄 Oil Changes</div>
+      <div>❄️ AC Service</div>
+      <div>⚡ Electrical Repairs</div>
+      <div>⚙️ Transmission Work</div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://via.placeholder.com/300x200" alt="Before Repair">
+      <img src="https://via.placeholder.com/300x200" alt="After Repair">
+      <img src="https://via.placeholder.com/300x200" alt="Shop Equipment">
+      <img src="https://via.placeholder.com/300x200" alt="Customer Vehicle">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="margin-top: 1rem; text-align: center;">
+      📞 408-288-7899<br>
+      📍 457 Park Ave, San Jose, CA 95110
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Mike's Repair Service. All rights reserved.
+  </footer>
+</body>
+</html>
